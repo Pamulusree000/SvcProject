@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.SvcProject.Utilities.ListenerSetup"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.SvcProject.TestLayer.ForgotPasswordTest">
+        <methods>
+          <include name="start"/>
+          <include name="end"/>
+          <include name="setUp"/>
+          <include name="verifyForgotPasswordScenario3" invocation-numbers="0 1"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.SvcProject.TestLayer.ForgotPasswordTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
