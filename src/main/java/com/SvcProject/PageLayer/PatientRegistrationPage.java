@@ -86,6 +86,73 @@ public class PatientRegistrationPage extends TestBase{
 	
 	@FindBy(css="#grdPatientDetails tr>td:nth-child(2)")
 	private List<WebElement> PatientName_txt;
+	
+	
+	
+	@FindBy(xpath="//input[@type=\"search\"]")
+	private WebElement search_txtbox;
+	
+	@FindBy(xpath="//a[@title='Click Here to Delete']")
+	private WebElement griddelete_button;
+	
+	@FindBy(css="button.confirm")
+	private WebElement delete_button;
+	
+	@FindBy(id="txtReason")
+	private WebElement deleteReason_txtbox;
+	
+	@FindBy(id="btnDelete")
+	private WebElement deleteaccount_button;
+	
+	@FindBy(xpath="//div[contains(@class,'sweet-alert')]/div[4]/following::h2")
+	private WebElement deleteresponse_message;
+	
+	@FindBy(css="button.confirm")
+	private WebElement deleteconfirmok_button;
+	
+	
+	
+	@FindBy(css="label.tgl-btn[for*='switch']")
+	private WebElement status_togglebutton;
+	
+	@FindBy(css="button.confirm")
+	private WebElement deactivate_button;
+	
+	@FindBy(id="txtReason")
+	private WebElement deactivatereason_txtbox;
+	
+	@FindBy(id="btnDeactivate")
+	private WebElement confirmdeactivate_button;
+	
+	@FindBy(xpath="//div[contains(@class,'sweet-alert')]/div[4]/following::h2")
+	private WebElement deactivateresponse_message;
+	
+	@FindBy(css="button.confirm")
+	private WebElement deactivateconfirmok_button;
+	
+	
+	
+	@FindBy(xpath="//a[@title=\"Click here to View\"]")
+	private WebElement view_button;
+	
+	@FindBy(id="btnClose")
+	private WebElement close_button;
+	
+	
+	
+	@FindBy(xpath="//a[@title='Click here to Edit']")
+	private WebElement edit_button;
+	
+	@FindBy(id="btnSave")
+	private WebElement update_button;
+	
+	@FindBy(xpath="//div[contains(@class,'sweet-alert')]/div[4]/following::p[1]")
+	private WebElement updateresponse_message;
+	
+	@FindBy(css="button.confirm")
+	private WebElement updateconfirmok_button;
+	
+	
 	//------------------------------------------------Methods-----------------------------------------------------
 	
 	
@@ -116,7 +183,6 @@ public class PatientRegistrationPage extends TestBase{
 		patientregrelationship_txtbox.sendKeys(RegRelationship,Keys.ENTER);
 		
 	}
-	
 	public void setPatientRegRelationshipName(String RegRelationshipName)
 	{
 		patientregrelationshipname_txtbox.sendKeys(RegRelationshipName);
@@ -168,6 +234,135 @@ public class PatientRegistrationPage extends TestBase{
 			allPatient.add(patients_txt.getText());
 		}	
 		return allPatient;
+	}
+	
+	//---------------------------deleteaccount----------------------------
+	
+	public void setDeleteAccountSearch(String DeleteAccountSearch)
+	{
+		search_txtbox.sendKeys(DeleteAccountSearch);
+	}
+	public void clickOnGridDeleteButton()
+	{
+		griddelete_button.click();
+	}
+	public void clickOnDeleteButton()
+	{
+		delete_button.click();
+	}
+	public void setDeleteReason(String DeleteReason)
+	{
+		deleteReason_txtbox.sendKeys(DeleteReason);
+	}
+	public void clickOnDeleteAccountButton()
+	{
+		deleteaccount_button.click();
+	}
+	public String getActualDeleteResponseMessage()
+	{
+		return deleteresponse_message.getText();
+	}
+	public void clickOnDeleteConfirmOkButton()
+	{
+		deleteconfirmok_button.click();
+	}
+	//---------------------------accountstatus-----------------------------------
+	
+	public void setAccountStatusSearch(String AccountStatusSearch)
+	{
+		search_txtbox.sendKeys(AccountStatusSearch);
+	}
+	public void clickOnStatusToggleButton()
+	{
+		status_togglebutton.click();
+	}
+	public void clickOnDeactivateButton()
+	{
+		deactivate_button.click();
+	}
+	public void setDeactivateReason(String DeactivateReason)
+	{
+		deactivatereason_txtbox.sendKeys(DeactivateReason);
+	}
+	public void clickOnConfirmDeactivateButton()
+	{
+		confirmdeactivate_button.click();
+	}
+	public String getActualDeactivateResponseMessage()
+	{
+		return deactivateresponse_message.getText();
+	}
+	public void clickOnDeactivateConfirmOkButton()
+	{
+		deactivateconfirmok_button.click();
+	}
+	//--------------------------view-------------------------------------------
+	
+	public void setViewPatientSearch(String ViewPatientSearch)
+	{
+		search_txtbox.sendKeys(ViewPatientSearch);
+	}
+	public void clickOnViewButton()
+	{
+		view_button.click();
+	}
+	public void clickOnCloseButton()
+	{
+		close_button.click();
+	}
+	//----------------------------edit-------------------------------------------
+	
+	
+	
+	public void setEditSearchBox(String EditSearch)
+	{
+		search_txtbox.sendKeys(EditSearch);
+	}
+	
+	public void clickOnEditButton()
+	{
+		edit_button.click();
+	}
+	public void setEditPatientRegName(String RegName)
+	{
+		patientregname_txtbox.clear();
+		patientregname_txtbox.sendKeys(RegName);
+	}
+	public void setEditPatientRegAge(String RegAge)
+	{
+		patientregage_txtbox.clear();
+		patientregage_txtbox.sendKeys(RegAge);
+	}
+	public void setEditPatientRegRelationshipName(String RegRelationshipName)
+	{
+		patientregrelationshipname_txtbox.clear();
+		patientregrelationshipname_txtbox.sendKeys(RegRelationshipName);
+	}
+	public void setEditPatientRegPincode(String RegPincode)
+	{
+		patientregpincode_txtbox.clear();
+		patientregpincode_txtbox.sendKeys(RegPincode);
+	}
+	public void enterEditRegMobileNo(String RegMobileno,String RegOtp)
+	{
+		patientregmobileno_txtbox.clear();
+		patientregmobileno_txtbox.sendKeys(RegMobileno);
+		patientregverifyotp_link.click();
+		patientregotp_txtboxs.sendKeys(RegOtp);
+		patientregvalidateotp_btn.click();
+	
+	}
+	public void clickOnUpdateButton()
+	{
+		update_button.click();
+	}
+	public String getUpdateResponseMessage()
+	{
+		return updateresponse_message.getText();
+	}
+	public void clickOnUpdateConfirmOkButton()
+	{
+		updateconfirmok_button.click();
 	}
 	
 }
