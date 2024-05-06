@@ -1,5 +1,6 @@
 package com.SvcProject.PageLayer;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -9,6 +10,8 @@ import com.SvcProject.TestBase.TestBase;
 
 
 public class SignupPage extends TestBase {
+	
+	JavascriptExecutor jse= (JavascriptExecutor)driver;
 	
 	public SignupPage (){
 		
@@ -23,6 +26,7 @@ public class SignupPage extends TestBase {
 	
 	@FindBy(id="txtMobNo")
 	private WebElement mobilenumber_textbox;
+	
 	
 	@FindBy(id="txtUserName")
 	private WebElement name_textbox;
@@ -77,9 +81,18 @@ public class SignupPage extends TestBase {
 		mobilenumber_textbox.sendKeys(MobileNumber);
 	}
 	
+	public String getMobileNumber()
+	{
+		return (String)jse.executeScript("return document.getElementById ('txtMobNo').value;");
+	}
+	
 	public void setName (String Name)
 	{
 		name_textbox.sendKeys(Name);
+	}
+	public String getName()
+	{
+		return (String)jse.executeScript("return document.getElementById ('txtUserName').value");
 	}
 	
 	public void setEmailId (String Email )
@@ -87,14 +100,29 @@ public class SignupPage extends TestBase {
 		emailid_textbox.sendKeys(Email);
 	}
 	
+	public String getEmail()
+	{
+		return (String) jse.executeScript("return document.getElementById ('txtUserEmail').value");
+	}
+	
 	public void setPassword(String Password)
 	{
 		password_textbox.sendKeys(Password);
 	}
 	
+	public String getPassword()
+	{
+		return (String)jse.executeScript("return document.getElementById ('txtPwd').value");
+	}
+	
 	public void setConfirmPassword(String ConfirmPassword)
 	{
 		confirmpassword_textbox.sendKeys(ConfirmPassword);
+	}
+	
+	public String getConfirmPassword()
+	{
+		return (String) jse.executeScript("return document.getElementById ('txtCpwd').value");
 	}
 	
 	public void selectGenderRadioButton(String Gender)
@@ -129,6 +157,10 @@ public class SignupPage extends TestBase {
 	public void setOtp (String Otp)
 	{
 		otp_textbox.sendKeys(Otp);
+	}
+	public String getOtp()
+	{
+		return (String) jse.executeScript("return document.getElementById ('txtOTP').value");
 	}
 	
 	public void clickonSignUpButton()

@@ -250,6 +250,7 @@ public class PatientProfilePage extends TestBase {
 	{
 		patientname_txtbox.clear();
 		patientname_txtbox.sendKeys(patientname);
+		
 	}
 	
 	public void setPatientDateOfBirth(String date)

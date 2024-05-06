@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.SvcProject.TestLayer.SignInViaOtpTest">
+      <class name="com.SvcProject.TestLayer.SignUpTest">
         <methods>
-          <include name="verifySignInViaOtpScenarios1"/>
+          <include name="verifySignupScenarios1" invocation-numbers="1"/>
           <include name="start"/>
           <include name="end"/>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.SvcProject.TestLayer.SignInViaOtpTest -->
+      </class> <!-- com.SvcProject.TestLayer.SignUpTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

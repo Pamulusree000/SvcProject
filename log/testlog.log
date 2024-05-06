@@ -2224,3 +2224,55 @@
 2024-04-23 15:07:07,755 - Svc Automation Framework -INFO - Clicked on the save button
 2024-04-23 15:07:10,556 - Svc Automation Framework -INFO - Clicked on the confirm ok button
 2024-04-23 15:07:10,556 - Svc Automation Framework -INFO - Framework Execution Stopped
+2024-05-06 12:35:18,125 - Svc Automation Framework -INFO - Framework Execution Started
+2024-05-06 12:35:29,263 - Svc Automation Framework -INFO - Browser launches,Url,Maximize
+2024-05-06 12:35:30,698 - Svc Automation Framework -INFO - Clicked on home sign in button
+2024-05-06 12:35:32,852 - Svc Automation Framework -INFO - Mobile Number :8496345869
+2024-05-06 12:35:34,917 - Svc Automation Framework -INFO - Name:humesh
+2024-05-06 12:35:36,984 - Svc Automation Framework -INFO - EmailId :xyz1996@gmail.com
+2024-05-06 12:35:39,059 - Svc Automation Framework -INFO - Password :Idea@123
+2024-05-06 12:35:41,141 - Svc Automation Framework -INFO - ConfirmPassword :Idea@123
+2024-05-06 12:35:43,202 - Svc Automation Framework -INFO - Selected Gender
+2024-05-06 12:35:45,286 - Svc Automation Framework -INFO - Clicked on submit button
+2024-05-06 12:35:48,356 - Svc Automation Framework -INFO - Selected terms and usage checkbox
+2024-05-06 12:35:51,417 - Svc Automation Framework -INFO - Clicked on proceed button
+2024-05-06 12:35:58,871 - Svc Automation Framework -INFO - Browser launches,Url,Maximize
+2024-05-06 12:36:00,033 - Svc Automation Framework -INFO - Clicked on home sign in button
+2024-05-06 12:36:02,113 - Svc Automation Framework -INFO - Mobile Number :8496345869
+2024-05-06 12:36:04,178 - Svc Automation Framework -INFO - Name:munala
+2024-05-06 12:36:06,242 - Svc Automation Framework -INFO - EmailId :xyz1996@gmail.com
+2024-05-06 12:36:08,308 - Svc Automation Framework -INFO - Password :Idea@123
+2024-05-06 12:36:10,378 - Svc Automation Framework -INFO - ConfirmPassword :Idea@123
+2024-05-06 12:36:12,440 - Svc Automation Framework -INFO - Selected Gender
+2024-05-06 12:36:14,506 - Svc Automation Framework -INFO - Clicked on submit button
+2024-05-06 12:36:17,569 - Svc Automation Framework -INFO - Selected terms and usage checkbox
+2024-05-06 12:36:20,627 - Svc Automation Framework -INFO - Clicked on proceed button
+2024-05-06 12:36:22,693 - Svc Automation Framework -INFO - Framework Execution Stopped
+2024-05-06 12:41:35,119 - Svc Automation Framework -INFO - Framework Execution Started
+2024-05-06 12:41:42,557 - Svc Automation Framework -INFO - Browser launches,Url,Maximize
+2024-05-06 12:41:43,688 - Svc Automation Framework -INFO - Clicked on home sign in button
+2024-05-06 12:41:45,806 - Svc Automation Framework -INFO - Mobile Number :8496345869
+2024-05-06 12:41:47,872 - Svc Automation Framework -INFO - Name:humesh
+2024-05-06 12:41:49,936 - Svc Automation Framework -INFO - EmailId :xyz1996@gmail.com
+2024-05-06 12:41:51,997 - Svc Automation Framework -INFO - Password :Idea@123
+2024-05-06 12:41:54,055 - Svc Automation Framework -INFO - ConfirmPassword :Idea@123
+2024-05-06 12:41:56,122 - Svc Automation Framework -INFO - Selected Gender
+2024-05-06 12:41:58,172 - Svc Automation Framework -INFO - Clicked on submit button
+2024-05-06 12:42:01,236 - Svc Automation Framework -INFO - Selected terms and usage checkbox
+2024-05-06 12:42:04,289 - Svc Automation Framework -INFO - Clicked on proceed button
+2024-05-06 12:42:06,368 - Svc Automation Framework -INFO - Otp :789123
+2024-05-06 12:42:08,601 - Svc Automation Framework -INFO - Clicked on signup button
+2024-05-06 12:42:20,023 - Svc Automation Framework -INFO - Browser launches,Url,Maximize
+2024-05-06 12:42:20,854 - Svc Automation Framework -INFO - Clicked on home sign in button
+2024-05-06 12:42:22,975 - Svc Automation Framework -INFO - Mobile Number :8496345869
+2024-05-06 12:42:25,035 - Svc Automation Framework -INFO - Name:munala
+2024-05-06 12:42:27,109 - Svc Automation Framework -INFO - EmailId :xyz1996@gmail.com
+2024-05-06 12:42:29,175 - Svc Automation Framework -INFO - Password :Idea@123
+2024-05-06 12:42:31,256 - Svc Automation Framework -INFO - ConfirmPassword :Idea@123
+2024-05-06 12:42:33,317 - Svc Automation Framework -INFO - Selected Gender
+2024-05-06 12:42:35,379 - Svc Automation Framework -INFO - Clicked on submit button
+2024-05-06 12:42:38,442 - Svc Automation Framework -INFO - Selected terms and usage checkbox
+2024-05-06 12:42:41,497 - Svc Automation Framework -INFO - Clicked on proceed button
+2024-05-06 12:42:43,580 - Svc Automation Framework -INFO - Otp :789125
+2024-05-06 12:42:45,775 - Svc Automation Framework -INFO - Clicked on signup button
+2024-05-06 12:42:51,825 - Svc Automation Framework -INFO - Framework Execution Stopped
