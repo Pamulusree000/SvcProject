@@ -2276,3 +2276,25 @@
 2024-05-06 12:42:43,580 - Svc Automation Framework -INFO - Otp :789125
 2024-05-06 12:42:45,775 - Svc Automation Framework -INFO - Clicked on signup button
 2024-05-06 12:42:51,825 - Svc Automation Framework -INFO - Framework Execution Stopped
+2024-05-06 16:40:28,970 - Svc Automation Framework -INFO - Framework Execution Started
+2024-05-06 16:41:00,345 - Svc Automation Framework -INFO - Browser launches,Url,Maximize
+2024-05-06 16:41:04,245 - Svc Automation Framework -INFO - Clicked on home signin button
+2024-05-06 16:41:06,374 - Svc Automation Framework -INFO - UserName :8944944948
+2024-05-06 16:41:08,490 - Svc Automation Framework -INFO - Password :Idea@12345
+2024-05-06 16:41:11,362 - Svc Automation Framework -INFO - Clicked on login button
+2024-05-06 16:41:20,427 - Svc Automation Framework -INFO - Browser launches,Url,Maximize
+2024-05-06 16:41:21,554 - Svc Automation Framework -INFO - Clicked on home signin button
+2024-05-06 16:41:23,641 - Svc Automation Framework -INFO - UserName :8944944947
+2024-05-06 16:41:25,719 - Svc Automation Framework -INFO - Password :Idea@123
+2024-05-06 16:41:27,999 - Svc Automation Framework -INFO - Clicked on login button
+2024-05-06 16:41:37,061 - Svc Automation Framework -INFO - Browser launches,Url,Maximize
+2024-05-06 16:41:37,689 - Svc Automation Framework -INFO - Clicked on home signin button
+2024-05-06 16:41:39,809 - Svc Automation Framework -INFO - UserName :8944944947
+2024-05-06 16:41:41,883 - Svc Automation Framework -INFO - Password :Idea@12345
+2024-05-06 16:41:44,133 - Svc Automation Framework -INFO - Clicked on login button
+2024-05-06 16:41:52,518 - Svc Automation Framework -INFO - Browser launches,Url,Maximize
+2024-05-06 16:41:53,929 - Svc Automation Framework -INFO - Clicked on home signin button
+2024-05-06 16:41:56,030 - Svc Automation Framework -INFO - UserName :8944944948
+2024-05-06 16:41:58,102 - Svc Automation Framework -INFO - Password :Idea@123
+2024-05-06 16:42:00,710 - Svc Automation Framework -INFO - Clicked on login button
+2024-05-06 16:42:03,772 - Svc Automation Framework -INFO - Framework Execution Stopped

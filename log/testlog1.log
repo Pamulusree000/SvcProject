@@ -2276,3 +2276,25 @@
 2024-05-06 12:42:43,580 [main] INFO Svc Automation Framework - Otp :789125
 2024-05-06 12:42:45,775 [main] INFO Svc Automation Framework - Clicked on signup button
 2024-05-06 12:42:51,825 [main] INFO Svc Automation Framework - Framework Execution Stopped
+2024-05-06 16:40:28,970 [main] INFO Svc Automation Framework - Framework Execution Started
+2024-05-06 16:41:00,345 [main] INFO Svc Automation Framework - Browser launches,Url,Maximize
+2024-05-06 16:41:04,245 [main] INFO Svc Automation Framework - Clicked on home signin button
+2024-05-06 16:41:06,374 [main] INFO Svc Automation Framework - UserName :8944944948
+2024-05-06 16:41:08,490 [main] INFO Svc Automation Framework - Password :Idea@12345
+2024-05-06 16:41:11,362 [main] INFO Svc Automation Framework - Clicked on login button
+2024-05-06 16:41:20,427 [main] INFO Svc Automation Framework - Browser launches,Url,Maximize
+2024-05-06 16:41:21,554 [main] INFO Svc Automation Framework - Clicked on home signin button
+2024-05-06 16:41:23,641 [main] INFO Svc Automation Framework - UserName :8944944947
+2024-05-06 16:41:25,719 [main] INFO Svc Automation Framework - Password :Idea@123
+2024-05-06 16:41:27,999 [main] INFO Svc Automation Framework - Clicked on login button
+2024-05-06 16:41:37,061 [main] INFO Svc Automation Framework - Browser launches,Url,Maximize
+2024-05-06 16:41:37,689 [main] INFO Svc Automation Framework - Clicked on home signin button
+2024-05-06 16:41:39,809 [main] INFO Svc Automation Framework - UserName :8944944947
+2024-05-06 16:41:41,883 [main] INFO Svc Automation Framework - Password :Idea@12345
+2024-05-06 16:41:44,133 [main] INFO Svc Automation Framework - Clicked on login button
+2024-05-06 16:41:52,518 [main] INFO Svc Automation Framework - Browser launches,Url,Maximize
+2024-05-06 16:41:53,929 [main] INFO Svc Automation Framework - Clicked on home signin button
+2024-05-06 16:41:56,030 [main] INFO Svc Automation Framework - UserName :8944944948
+2024-05-06 16:41:58,102 [main] INFO Svc Automation Framework - Password :Idea@123
+2024-05-06 16:42:00,710 [main] INFO Svc Automation Framework - Clicked on login button
+2024-05-06 16:42:03,772 [main] INFO Svc Automation Framework - Framework Execution Stopped

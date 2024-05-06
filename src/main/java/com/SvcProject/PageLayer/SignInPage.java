@@ -1,5 +1,6 @@
 package com.SvcProject.PageLayer;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -9,6 +10,8 @@ import com.SvcProject.TestBase.TestBase;
 
 
 public class SignInPage extends TestBase{
+	
+	JavascriptExecutor jse=(JavascriptExecutor)driver;
 	
 	public SignInPage() {
 		
@@ -48,10 +51,21 @@ public class SignInPage extends TestBase{
 		username_textbox.sendKeys(Username);
 	}
 	
+	public String getUsername()
+	{
+		return (String) jse.executeScript("return document.getElementById ('txtMobNo').value");
+	}
+	
 	public void setPassword(String Password)
 	{
 		password_textbox.sendKeys(Password);
 	}
+	
+	public String getPassword()
+	{
+		return (String) jse.executeScript("return document.getElementById ('txtloginpwd').value");
+	}
+	
 	
 	public void clickOnLoginbutton()
 	{

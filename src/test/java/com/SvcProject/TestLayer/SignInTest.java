@@ -32,21 +32,23 @@ public class SignInTest extends TestBase{
 		logger.info("Clicked on home signin button");
 		Thread.sleep(2000);
 		signin.setUsername(Username);
-		logger.info("Entered username");
+		String username=signin.getUsername();
+		logger.info("UserName :"+username);
 		Thread.sleep(2000);
 		signin.setPassword(Password);
-		logger.info("Entered pasword");
+		String password=signin.getPassword();
+		logger.info("Password :"+password);
 		Thread.sleep(2000);
 		signin.clickOnLoginbutton();
-		logger.info("clicked on login button");
+		logger.info("Clicked on login button");
 		Thread.sleep(3000);
 		String Actualtitle=driver.getTitle();
-		//System.out.println(title);
 		
 			Assert.assertEquals(Actualtitle, ExpectedTitle);
 			if(Actualtitle.equals("i~Virtual Vaidya"))
+			{
 				Assert.assertTrue(signin.getErrorText().contains(ExpectedValidation));
-		
+			}
 	}
 	
 }
