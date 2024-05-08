@@ -1,5 +1,6 @@
 package com.SvcProject.PageLayer;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -8,7 +9,7 @@ import com.SvcProject.TestBase.TestBase;
 
 public class SignInViaOtpPage extends TestBase {
 
-	
+	JavascriptExecutor jse=(JavascriptExecutor)driver;
 	//private static final CharSequence Otp = null;
 
 	public SignInViaOtpPage ()
@@ -57,6 +58,10 @@ public class SignInViaOtpPage extends TestBase {
 	{
 		username_textbox.sendKeys(Username);
 	}
+	public String getUsername()
+	{
+		return (String) jse.executeScript("return document.getElementById ('txtMobNo').value");
+	}
 	
 	public void clickOnSignInViaOtpButton()
 	{
@@ -79,6 +84,10 @@ public class SignInViaOtpPage extends TestBase {
 		{
 			otp_textbox.sendKeys(Otp);
 		}
+	}
+	public String getOtp()
+	{
+		return (String)jse.executeScript("return document.getElementById ('txtOTP').value");
 	}
 	
 	public String getErrorText()

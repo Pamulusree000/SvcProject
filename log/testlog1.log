@@ -2298,3 +2298,39 @@
 2024-05-06 16:41:58,102 [main] INFO Svc Automation Framework - Password :Idea@123
 2024-05-06 16:42:00,710 [main] INFO Svc Automation Framework - Clicked on login button
 2024-05-06 16:42:03,772 [main] INFO Svc Automation Framework - Framework Execution Stopped
+2024-05-08 16:01:21,497 [main] INFO Svc Automation Framework - Framework Execution Started
+2024-05-08 16:01:31,496 [main] INFO Svc Automation Framework - Browser launches,Url,Maximize
+2024-05-08 16:01:32,290 [main] INFO Svc Automation Framework - clicked on home signin button
+2024-05-08 16:01:35,422 [main] INFO Svc Automation Framework - Username :8944944948
+2024-05-08 16:01:38,480 [main] INFO Svc Automation Framework - clicked on sign in via otp button
+2024-05-08 16:01:41,633 [main] INFO Svc Automation Framework - Otp :789123
+2024-05-08 16:01:45,681 [main] INFO Svc Automation Framework - clicked on signin button
+2024-05-08 16:01:54,821 [main] INFO Svc Automation Framework - Browser launches,Url,Maximize
+2024-05-08 16:01:56,072 [main] INFO Svc Automation Framework - clicked on home signin button
+2024-05-08 16:01:59,248 [main] INFO Svc Automation Framework - Username :8944944948
+2024-05-08 16:02:02,320 [main] INFO Svc Automation Framework - clicked on sign in via otp button
+2024-05-08 16:02:05,519 [main] INFO Svc Automation Framework - Otp :789125
+2024-05-08 16:02:09,634 [main] INFO Svc Automation Framework - clicked on signin button
+2024-05-08 16:02:19,160 [main] INFO Svc Automation Framework - Browser launches,Url,Maximize
+2024-05-08 16:02:20,250 [main] INFO Svc Automation Framework - clicked on home signin button
+2024-05-08 16:02:23,395 [main] INFO Svc Automation Framework - Username :8944944947
+2024-05-08 16:02:26,457 [main] INFO Svc Automation Framework - clicked on sign in via otp button
+2024-05-08 16:02:29,548 [main] INFO Svc Automation Framework - Framework Execution Stopped
+2024-05-08 16:28:31,821 [main] INFO Svc Automation Framework - Framework Execution Started
+2024-05-08 16:28:39,609 [main] INFO Svc Automation Framework - Browser launches,Url,Maximize
+2024-05-08 16:28:41,326 [main] INFO Svc Automation Framework - clicked on home signin button
+2024-05-08 16:28:44,505 [main] INFO Svc Automation Framework - Username :8944944948
+2024-05-08 16:28:47,613 [main] INFO Svc Automation Framework - clicked on sign in via otp button
+2024-05-08 16:28:50,748 [main] INFO Svc Automation Framework - Otp :789123
+2024-05-08 16:28:54,703 [main] INFO Svc Automation Framework - clicked on signin button
+2024-05-08 16:29:03,561 [main] INFO Svc Automation Framework - Browser launches,Url,Maximize
+2024-05-08 16:29:04,991 [main] INFO Svc Automation Framework - clicked on home signin button
+2024-05-08 16:29:08,188 [main] INFO Svc Automation Framework - Username :8944944948
+2024-05-08 16:29:11,278 [main] INFO Svc Automation Framework - clicked on sign in via otp button
+2024-05-08 16:29:14,435 [main] INFO Svc Automation Framework - Otp :789129
+2024-05-08 16:29:18,406 [main] INFO Svc Automation Framework - clicked on signin button
+2024-05-08 16:29:27,877 [main] INFO Svc Automation Framework - Browser launches,Url,Maximize
+2024-05-08 16:29:29,222 [main] INFO Svc Automation Framework - clicked on home signin button
+2024-05-08 16:29:32,387 [main] INFO Svc Automation Framework - Username :8944944947
+2024-05-08 16:29:35,486 [main] INFO Svc Automation Framework - clicked on sign in via otp button
+2024-05-08 16:29:38,567 [main] INFO Svc Automation Framework - Framework Execution Stopped

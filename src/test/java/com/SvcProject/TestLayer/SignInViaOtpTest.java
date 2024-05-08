@@ -38,13 +38,15 @@ public class SignInViaOtpTest extends TestBase {
 		logger.info("clicked on home signin button");
 		Thread.sleep(3000);		
 		signinviaotp.setUsername(Username);
-		logger.info("Entered username");
+		String username=signinviaotp.getUsername();
+		logger.info("Username :"+username);
 		Thread.sleep(3000);
 		signinviaotp.clickOnSignInViaOtpButton();
 		logger.info("clicked on sign in via otp button");
 		Thread.sleep(3000);
 		signinviaotp.setOTP(LoginOtp);
-		logger.info("Entered otp");
+		String otp=signinviaotp.getOtp();
+		logger.info("Otp :"+otp);
 		Thread.sleep(3000);
 		signinviaotp.clickOnSignInButton();
 		logger.info("clicked on signin button");
@@ -74,7 +76,8 @@ public class SignInViaOtpTest extends TestBase {
 		logger.info("clicked on home signin button");
 		Thread.sleep(3000);		
 		signinviaotp.setUsername(Username);
-		logger.info("Entered username");
+		String username=signinviaotp.getUsername();
+		logger.info("Username :"+username);
 		Thread.sleep(3000);
 		signinviaotp.clickOnSignInViaOtpButton();
 		logger.info("clicked on sign in via otp button");
