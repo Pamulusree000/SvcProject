@@ -23,7 +23,7 @@ public class ChangePasswordTest extends TestBase{
 	@Test(dataProvider="getChangePassword")
 	public void verifyChangePasswordScenarios(
 			String Username,
-			String Password,
+			String LoginOtp,
 			String CurrentPassword,
 			String NewPassword,
 			String ConfirmPassword,
@@ -32,35 +32,43 @@ public class ChangePasswordTest extends TestBase{
 			) throws InterruptedException
 	{
 		
-		signin.clickOnSigninButton();
-		logger.info("clicked on the signin button");
-		Thread.sleep(2000);
-		signin.setUsername(Username);
-		logger.info("Entered username");
-		Thread.sleep(2000);
-		signin.setPassword(Password);
-		logger.info("Entered password");
-		Thread.sleep(2000);
-		signin.clickOnLoginbutton();
-		logger.info("clicked on login button");
-		Thread.sleep(2000);
+		signinviaotp.clickOnHomeSignInButton();
+		logger.info("Clicked on home signin button");
+		Thread.sleep(3000);		
+		signinviaotp.setUsername(Username);
+		String username=signinviaotp.getUsername();
+		logger.info("Username :"+username);
+		Thread.sleep(3000);
+		signinviaotp.clickOnSignInViaOtpButton();
+		logger.info("Clicked on sign in via otp button");
+		Thread.sleep(3000);
+		signinviaotp.setOTP(LoginOtp);
+		String otp=signinviaotp.getOtp();
+		logger.info("Otp :"+otp);
+		Thread.sleep(3000);
+		signinviaotp.clickOnSignInButton();
+		logger.info("Clicked on signin button");
+		Thread.sleep(3000);
 		changepassword.clickOnOthersLink();
-		logger.info("clicked on otherslink module");
+		logger.info("Clicked on otherslink module");
 		Thread.sleep(2000);
 		changepassword.clickOnChangePasswordLink();
-		logger.info("clicked on changepasswordlink");
+		logger.info("Clicked on changepasswordlink");
 		Thread.sleep(2000);
 		changepassword.setCurrentPassword(CurrentPassword);
-		logger.info("Entered currentpassword");
+		String currentpassword=changepassword.getCurrentPassword();
+		logger.info("CurrentPassword :"+currentpassword);
 		Thread.sleep(2000);
 		changepassword.setNewPassword(NewPassword);
-		logger.info("Entered newpassword");
+		String newpassword=changepassword.getNewPassword();
+		logger.info("NewPassword :"+newpassword);
 		Thread.sleep(2000);
 		changepassword.setConfirmPassword(ConfirmPassword);
-		logger.info("Entered confirmpassword");
+		String confirmpassword=changepassword.getConfirmPassword();
+		logger.info("ConfirmPassword :"+confirmpassword);
 		Thread.sleep(2000);
 		changepassword.clickOnUpdateBtn();
-		logger.info("clicked on update button");
+		logger.info("Clicked on update button");
 		Thread.sleep(3000);
 		
 	

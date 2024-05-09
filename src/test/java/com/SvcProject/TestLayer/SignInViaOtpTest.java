@@ -35,21 +35,21 @@ public class SignInViaOtpTest extends TestBase {
 	{
 		
 		signinviaotp.clickOnHomeSignInButton();
-		logger.info("clicked on home signin button");
+		logger.info("Clicked on home signin button");
 		Thread.sleep(3000);		
 		signinviaotp.setUsername(Username);
 		String username=signinviaotp.getUsername();
 		logger.info("Username :"+username);
 		Thread.sleep(3000);
 		signinviaotp.clickOnSignInViaOtpButton();
-		logger.info("clicked on sign in via otp button");
+		logger.info("Clicked on sign in via otp button");
 		Thread.sleep(3000);
 		signinviaotp.setOTP(LoginOtp);
 		String otp=signinviaotp.getOtp();
 		logger.info("Otp :"+otp);
 		Thread.sleep(3000);
 		signinviaotp.clickOnSignInButton();
-		logger.info("clicked on signin button");
+		logger.info("Clicked on signin button");
 		Thread.sleep(3000);
 		
 		String Actualtitle=driver.getTitle();
@@ -73,14 +73,14 @@ public class SignInViaOtpTest extends TestBase {
 	{
 		
 		signinviaotp.clickOnHomeSignInButton();
-		logger.info("clicked on home signin button");
+		logger.info("Clicked on home signin button");
 		Thread.sleep(3000);		
 		signinviaotp.setUsername(Username);
 		String username=signinviaotp.getUsername();
 		logger.info("Username :"+username);
 		Thread.sleep(3000);
 		signinviaotp.clickOnSignInViaOtpButton();
-		logger.info("clicked on sign in via otp button");
+		logger.info("Clicked on sign in via otp button");
 		Thread.sleep(3000);
 		
 		String Actualtitle=driver.getTitle();

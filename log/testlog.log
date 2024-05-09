@@ -2334,3 +2334,103 @@
 2024-05-08 16:29:32,387 - Svc Automation Framework -INFO - Username :8944944947
 2024-05-08 16:29:35,486 - Svc Automation Framework -INFO - clicked on sign in via otp button
 2024-05-08 16:29:38,567 - Svc Automation Framework -INFO - Framework Execution Stopped
+2024-05-09 15:41:46,162 - Svc Automation Framework -INFO - Framework Execution Started
+2024-05-09 15:41:57,966 - Svc Automation Framework -INFO - Browser launches,Url,Maximize
+2024-05-09 15:41:59,977 - Svc Automation Framework -INFO - Clicked on home signin button
+2024-05-09 15:42:03,155 - Svc Automation Framework -INFO - Username :9841989189
+2024-05-09 15:42:06,255 - Svc Automation Framework -INFO - Clicked on sign in via otp button
+2024-05-09 15:42:09,511 - Svc Automation Framework -INFO - Otp :789123
+2024-05-09 15:42:13,671 - Svc Automation Framework -INFO - Clicked on signin button
+2024-05-09 15:42:17,001 - Svc Automation Framework -INFO - Clicked on otherslink module
+2024-05-09 15:42:19,198 - Svc Automation Framework -INFO - Clicked on changepasswordlink
+2024-05-09 15:42:21,420 - Svc Automation Framework -INFO - CurrentPassword :Idea@1234
+2024-05-09 15:42:23,583 - Svc Automation Framework -INFO - NewPassword :Idea@12345
+2024-05-09 15:42:25,761 - Svc Automation Framework -INFO - ConfirmPassword :Idea@12345
+2024-05-09 15:42:28,962 - Svc Automation Framework -INFO - Clicked on update button
+2024-05-09 15:42:37,789 - Svc Automation Framework -INFO - Browser launches,Url,Maximize
+2024-05-09 15:42:38,808 - Svc Automation Framework -INFO - Clicked on home signin button
+2024-05-09 15:42:41,981 - Svc Automation Framework -INFO - Username :9841989189
+2024-05-09 15:42:45,083 - Svc Automation Framework -INFO - Clicked on sign in via otp button
+2024-05-09 15:42:48,288 - Svc Automation Framework -INFO - Otp :789123
+2024-05-09 15:42:52,477 - Svc Automation Framework -INFO - Clicked on signin button
+2024-05-09 15:42:55,679 - Svc Automation Framework -INFO - Clicked on otherslink module
+2024-05-09 15:42:57,886 - Svc Automation Framework -INFO - Clicked on changepasswordlink
+2024-05-09 15:43:00,111 - Svc Automation Framework -INFO - CurrentPassword :Idea@123
+2024-05-09 15:43:02,283 - Svc Automation Framework -INFO - NewPassword :Idea@1234
+2024-05-09 15:43:04,534 - Svc Automation Framework -INFO - ConfirmPassword :Idea@12345
+2024-05-09 15:43:06,757 - Svc Automation Framework -INFO - Clicked on update button
+2024-05-09 15:43:16,596 - Svc Automation Framework -INFO - Browser launches,Url,Maximize
+2024-05-09 15:43:17,734 - Svc Automation Framework -INFO - Clicked on home signin button
+2024-05-09 15:43:21,053 - Svc Automation Framework -INFO - Username :9841989189
+2024-05-09 15:43:24,145 - Svc Automation Framework -INFO - Clicked on sign in via otp button
+2024-05-09 15:43:27,437 - Svc Automation Framework -INFO - Otp :789123
+2024-05-09 15:43:31,578 - Svc Automation Framework -INFO - Clicked on signin button
+2024-05-09 15:43:34,740 - Svc Automation Framework -INFO - Clicked on otherslink module
+2024-05-09 15:43:36,915 - Svc Automation Framework -INFO - Clicked on changepasswordlink
+2024-05-09 15:43:39,127 - Svc Automation Framework -INFO - CurrentPassword :Idea@123
+2024-05-09 15:43:41,372 - Svc Automation Framework -INFO - NewPassword :Idea@123
+2024-05-09 15:43:43,559 - Svc Automation Framework -INFO - ConfirmPassword :Idea@123
+2024-05-09 15:43:46,031 - Svc Automation Framework -INFO - Clicked on update button
+2024-05-09 15:43:56,107 - Svc Automation Framework -INFO - Browser launches,Url,Maximize
+2024-05-09 15:43:57,373 - Svc Automation Framework -INFO - Clicked on home signin button
+2024-05-09 15:44:00,549 - Svc Automation Framework -INFO - Username :9841989189
+2024-05-09 15:44:03,739 - Svc Automation Framework -INFO - Clicked on sign in via otp button
+2024-05-09 15:44:06,993 - Svc Automation Framework -INFO - Otp :789123
+2024-05-09 15:44:11,296 - Svc Automation Framework -INFO - Clicked on signin button
+2024-05-09 15:44:14,569 - Svc Automation Framework -INFO - Clicked on otherslink module
+2024-05-09 15:44:16,815 - Svc Automation Framework -INFO - Clicked on changepasswordlink
+2024-05-09 15:44:19,008 - Svc Automation Framework -INFO - CurrentPassword :Idea@123
+2024-05-09 15:44:21,243 - Svc Automation Framework -INFO - NewPassword :Idea@1234
+2024-05-09 15:44:23,496 - Svc Automation Framework -INFO - ConfirmPassword :Idea@1234
+2024-05-09 15:44:26,378 - Svc Automation Framework -INFO - Clicked on update button
+2024-05-09 15:44:29,495 - Svc Automation Framework -INFO - Framework Execution Stopped
+2024-05-09 15:53:50,378 - Svc Automation Framework -INFO - Framework Execution Started
+2024-05-09 15:53:57,806 - Svc Automation Framework -INFO - Browser launches,Url,Maximize
+2024-05-09 15:53:58,939 - Svc Automation Framework -INFO - Clicked on home signin button
+2024-05-09 15:54:02,046 - Svc Automation Framework -INFO - Username :9841989189
+2024-05-09 15:54:05,087 - Svc Automation Framework -INFO - Clicked on sign in via otp button
+2024-05-09 15:54:08,164 - Svc Automation Framework -INFO - Otp :789123
+2024-05-09 15:54:12,136 - Svc Automation Framework -INFO - Clicked on signin button
+2024-05-09 15:54:15,240 - Svc Automation Framework -INFO - Clicked on otherslink module
+2024-05-09 15:54:17,344 - Svc Automation Framework -INFO - Clicked on changepasswordlink
+2024-05-09 15:54:19,415 - Svc Automation Framework -INFO - CurrentPassword :Idea@1234
+2024-05-09 15:54:21,498 - Svc Automation Framework -INFO - NewPassword :Idea@12345
+2024-05-09 15:54:23,586 - Svc Automation Framework -INFO - ConfirmPassword :Idea@12345
+2024-05-09 15:54:26,422 - Svc Automation Framework -INFO - Clicked on update button
+2024-05-09 15:54:35,226 - Svc Automation Framework -INFO - Browser launches,Url,Maximize
+2024-05-09 15:54:35,995 - Svc Automation Framework -INFO - Clicked on home signin button
+2024-05-09 15:54:39,123 - Svc Automation Framework -INFO - Username :9841989189
+2024-05-09 15:54:42,189 - Svc Automation Framework -INFO - Clicked on sign in via otp button
+2024-05-09 15:54:45,291 - Svc Automation Framework -INFO - Otp :789123
+2024-05-09 15:54:49,205 - Svc Automation Framework -INFO - Clicked on signin button
+2024-05-09 15:54:52,319 - Svc Automation Framework -INFO - Clicked on otherslink module
+2024-05-09 15:54:54,458 - Svc Automation Framework -INFO - Clicked on changepasswordlink
+2024-05-09 15:54:56,584 - Svc Automation Framework -INFO - CurrentPassword :Idea@123
+2024-05-09 15:54:58,658 - Svc Automation Framework -INFO - NewPassword :Idea@1234
+2024-05-09 15:55:00,772 - Svc Automation Framework -INFO - ConfirmPassword :Idea@12345
+2024-05-09 15:55:02,893 - Svc Automation Framework -INFO - Clicked on update button
+2024-05-09 15:55:11,733 - Svc Automation Framework -INFO - Browser launches,Url,Maximize
+2024-05-09 15:55:12,724 - Svc Automation Framework -INFO - Clicked on home signin button
+2024-05-09 15:55:15,866 - Svc Automation Framework -INFO - Username :9841989189
+2024-05-09 15:55:18,951 - Svc Automation Framework -INFO - Clicked on sign in via otp button
+2024-05-09 15:55:22,073 - Svc Automation Framework -INFO - Otp :789123
+2024-05-09 15:55:26,306 - Svc Automation Framework -INFO - Clicked on signin button
+2024-05-09 15:55:29,424 - Svc Automation Framework -INFO - Clicked on otherslink module
+2024-05-09 15:55:31,615 - Svc Automation Framework -INFO - Clicked on changepasswordlink
+2024-05-09 15:55:33,770 - Svc Automation Framework -INFO - CurrentPassword :Idea@123
+2024-05-09 15:55:35,935 - Svc Automation Framework -INFO - NewPassword :Idea@123
+2024-05-09 15:55:38,084 - Svc Automation Framework -INFO - ConfirmPassword :Idea@123
+2024-05-09 15:55:40,319 - Svc Automation Framework -INFO - Clicked on update button
+2024-05-09 15:55:49,874 - Svc Automation Framework -INFO - Browser launches,Url,Maximize
+2024-05-09 15:55:51,181 - Svc Automation Framework -INFO - Clicked on home signin button
+2024-05-09 15:55:54,617 - Svc Automation Framework -INFO - Username :9841989189
+2024-05-09 15:55:57,698 - Svc Automation Framework -INFO - Clicked on sign in via otp button
+2024-05-09 15:56:00,850 - Svc Automation Framework -INFO - Otp :789123
+2024-05-09 15:56:05,155 - Svc Automation Framework -INFO - Clicked on signin button
+2024-05-09 15:56:09,231 - Svc Automation Framework -INFO - Clicked on otherslink module
+2024-05-09 15:56:11,388 - Svc Automation Framework -INFO - Clicked on changepasswordlink
+2024-05-09 15:56:13,622 - Svc Automation Framework -INFO - CurrentPassword :Idea@12345
+2024-05-09 15:56:15,801 - Svc Automation Framework -INFO - NewPassword :Idea@123456
+2024-05-09 15:56:17,932 - Svc Automation Framework -INFO - ConfirmPassword :Idea@123456
+2024-05-09 15:56:21,350 - Svc Automation Framework -INFO - Clicked on update button
+2024-05-09 15:56:24,452 - Svc Automation Framework -INFO - Framework Execution Stopped
