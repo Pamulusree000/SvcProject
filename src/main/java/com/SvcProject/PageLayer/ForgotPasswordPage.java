@@ -1,5 +1,6 @@
 package com.SvcProject.PageLayer;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -10,6 +11,7 @@ import com.SvcProject.TestBase.TestBase;
 
 public class ForgotPasswordPage extends TestBase {
 
+	JavascriptExecutor jse=(JavascriptExecutor)driver;
 	
 	public ForgotPasswordPage ()
 	{
@@ -71,6 +73,10 @@ public class ForgotPasswordPage extends TestBase {
 	{
 		username_txtbox.sendKeys(Username);
 	}
+	public String getUsername()
+	{
+		return (String)jse.executeScript("return document.getElementById ('txtMobNo').value");
+	}
 	
 	public void clickOnSubmitBtn()
 	{
@@ -80,6 +86,10 @@ public class ForgotPasswordPage extends TestBase {
 	public void setOtp(String Otp)
 	{
 		otp_txtbox.sendKeys(Otp);
+	}
+	public String getOtp()
+	{
+		return (String) jse.executeScript("return document.getElementById ('txtOTP').value");
 	}
 	
 	public void clickOnOtpSubmitBtn()
@@ -91,10 +101,18 @@ public class ForgotPasswordPage extends TestBase {
 	{
 		newpassword_txtbox.sendKeys(NewPassword);
 	}
+	public String getNewPassword()
+	{
+		return (String)jse.executeScript("return document.getElementById ('txtUserPassword').value");
+	}
 	
 	public void setConfirmPassword(String ConfirmPassword)
 	{
 		confirmpassword_txtbox.sendKeys(ConfirmPassword);
+	}
+	public String getConfirmPassword()
+	{
+		return (String)jse.executeScript("return document.getElementById ('txtUserConfirmPassword').value");
 	}
 	
 	public void clickOnUpdateBtn()
