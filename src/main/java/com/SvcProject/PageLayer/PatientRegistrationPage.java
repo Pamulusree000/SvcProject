@@ -3,6 +3,7 @@ package com.SvcProject.PageLayer;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -14,6 +15,10 @@ import com.SvcProject.TestBase.TestBase;
 
 public class PatientRegistrationPage extends TestBase{
 
+	
+	JavascriptExecutor jse=(JavascriptExecutor)driver;
+	
+	
 	
 	public PatientRegistrationPage()
 	{
@@ -45,6 +50,9 @@ public class PatientRegistrationPage extends TestBase{
 	@FindBy(xpath="//div[@id='ddlPatientSpouseRelation_chosen']/div/div/input")
 	private WebElement patientregrelationship_txtbox;
 	
+	@FindBy(css="#ddlPatientSpouseRelation_chosen span")
+	private WebElement patientregrelationship_text;
+	
 	@FindBy(id="txtPatientSpouseName")
 	private WebElement patientregrelationshipname_txtbox;
 	
@@ -57,6 +65,9 @@ public class PatientRegistrationPage extends TestBase{
 	@FindBy(xpath="//div[@id='ddlPatientGender_chosen']/div/div/input")
 	private WebElement patientreggender_txtbox;
 	
+	@FindBy(css="#ddlPatientGender_chosen span")
+	private WebElement patientreggender_txt;
+	
 	@FindBy(id="txtPatientMobileNo")
 	private WebElement patientregmobileno_txtbox;
 	
@@ -66,6 +77,9 @@ public class PatientRegistrationPage extends TestBase{
 	@FindBy(id="txtfOTP")
 	private WebElement patientregotp_txtboxs;
 	
+	@FindBy(css="input[name='OTP']")
+	private WebElement patientregotp_txt;
+	
 	@FindBy(id="btnValidate")
 	private WebElement patientregvalidateotp_btn;
 	
@@ -74,6 +88,9 @@ public class PatientRegistrationPage extends TestBase{
 	
 	@FindBy(xpath="//div[@id='ddlPreferedHealthCenter_chosen']/div/div/input")
 	private WebElement patientregpreferredsvc_txtbox;
+	
+	@FindBy(css="#ddlPreferedHealthCenter_chosen span")
+	private WebElement patientregpreferredsvc_txt;
 	
 	@FindBy(id="btnSave")
 	private WebElement patientregsave_Btn;
@@ -171,25 +188,44 @@ public class PatientRegistrationPage extends TestBase{
 	{
 		patientregname_txtbox.sendKeys(RegName);
 	}
+	public String getPatientRegName()
+	{
+		return (String)jse.executeScript("return document.getElementById ('txtPatientName').value");
+	}
 	
 	public void setPatientRegAge(String RegAge)
 	{
 		patientregage_txtbox.sendKeys(RegAge);
+	}
+	public String getPatientRegAge()
+	{
+		return (String)jse.executeScript("return document.getElementById ('txtPatientAge').value");
 	}
 	
 	public void selectPatientRegRelationship(String RegRelationship)
 	{
 		patientregrelationship_listbox.click();
 		patientregrelationship_txtbox.sendKeys(RegRelationship,Keys.ENTER);
-		
+	}
+	public String getPatientRegRelationship()
+	{
+		return patientregrelationship_text.getText();
 	}
 	public void setPatientRegRelationshipName(String RegRelationshipName)
 	{
 		patientregrelationshipname_txtbox.sendKeys(RegRelationshipName);
 	}
+	public String getPatientRegRelationshipName()
+	{
+		return (String)jse.executeScript("return document.getElementById('txtPatientSpouseName').value");
+	}
 	public void setPatientRegPincode(String RegPincode)
 	{
 		patientregpincode_txtbox.sendKeys(RegPincode);
+	}
+	public String getPatientRegPincode()
+	{
+		return (String)jse.executeScript("return document.getElementById('txtPatientPinCode').value");
 	}
 	
 	public void selectPatientRegGender(String RegGender)
@@ -197,21 +233,36 @@ public class PatientRegistrationPage extends TestBase{
 		patientreggender_listbox.click();
 		patientreggender_txtbox.sendKeys(RegGender,Keys.ENTER);
 	}
+	public String getPatientRegGender()
+	{
+		return patientreggender_txt.getText();
+	}
 	
-	public void enterRegMobileNo(String RegMobileno,String RegOtp)
+	public void enterRegMobileNo(String RegMobileno,String RegOtp) throws InterruptedException
 	{
 		patientregmobileno_txtbox.sendKeys(RegMobileno);
 		patientregverifyotp_link.click();
 		patientregotp_txtboxs.sendKeys(RegOtp);
+		Thread.sleep(3000);
 		patientregvalidateotp_btn.click();
 	
 	}
-	
+	public String getMobileNo()
+	{
+		return (String)jse.executeScript("return document.getElementById('txtPatientMobileNo').value");
+	}
+	public String getOtp()
+	{
+		return patientregotp_txt.getText();
+	}
 	public void selectPatientRegReferredsvc(String RegReferredSvc)
 	{
 		patientregpreferredsvc_listbox.click();
 		patientregpreferredsvc_txtbox.sendKeys(RegReferredSvc,Keys.ENTER);
-		
+	}
+	public String getPatientRegReferredsvc()
+	{
+		return patientregpreferredsvc_txt.getText();
 	}
 	public void clickOnPatientRegSaveBtn()
 	{
@@ -242,6 +293,10 @@ public class PatientRegistrationPage extends TestBase{
 	{
 		search_txtbox.sendKeys(DeleteAccountSearch);
 	}
+	public String getDeleteAccountSearch()
+	{
+		return (String)jse.executeScript("return document.querySelector('div#grdPatientDetails_filter input').value");
+	}
 	public void clickOnGridDeleteButton()
 	{
 		griddelete_button.click();
@@ -253,6 +308,10 @@ public class PatientRegistrationPage extends TestBase{
 	public void setDeleteReason(String DeleteReason)
 	{
 		deleteReason_txtbox.sendKeys(DeleteReason);
+	}
+	public String getDeleteReason()
+	{
+		return (String)jse.executeScript("return document.getElementById('txtReason').value");
 	}
 	public void clickOnDeleteAccountButton()
 	{
@@ -272,6 +331,10 @@ public class PatientRegistrationPage extends TestBase{
 	{
 		search_txtbox.sendKeys(AccountStatusSearch);
 	}
+	public String getAccountStatusSearch()
+	{
+		return (String)jse.executeScript("return document.querySelector('div#grdPatientDetails_filter input').value");
+	}
 	public void clickOnStatusToggleButton()
 	{
 		status_togglebutton.click();
@@ -284,6 +347,11 @@ public class PatientRegistrationPage extends TestBase{
 	{
 		deactivatereason_txtbox.sendKeys(DeactivateReason);
 	}
+	public String getDeactivateReason()
+	{
+		return (String)jse.executeScript("return document.getElementById('txtReason').value");
+	}
+	
 	public void clickOnConfirmDeactivateButton()
 	{
 		confirmdeactivate_button.click();
@@ -302,6 +370,10 @@ public class PatientRegistrationPage extends TestBase{
 	{
 		search_txtbox.sendKeys(ViewPatientSearch);
 	}
+	public String getViewPatientSearch()
+	{
+		return (String)jse.executeScript("return document.querySelector('div#grdPatientDetails_filter input').value");
+	}
 	public void clickOnViewButton()
 	{
 		view_button.click();
@@ -318,6 +390,10 @@ public class PatientRegistrationPage extends TestBase{
 	{
 		search_txtbox.sendKeys(EditSearch);
 	}
+	public String getEditSearchBoxSearch()
+	{
+		return (String)jse.executeScript("return document.querySelector('div#grdPatientDetails_filter input').value");
+	}
 	
 	public void clickOnEditButton()
 	{
@@ -328,20 +404,38 @@ public class PatientRegistrationPage extends TestBase{
 		patientregname_txtbox.clear();
 		patientregname_txtbox.sendKeys(RegName);
 	}
+	public String getEditPatientRegName()
+	{
+		return (String)jse.executeScript("return document.getElementById ('txtPatientName').value");
+	}
+	
 	public void setEditPatientRegAge(String RegAge)
 	{
 		patientregage_txtbox.clear();
 		patientregage_txtbox.sendKeys(RegAge);
 	}
+	public String getEditPatientRegAge()
+	{
+		return (String)jse.executeScript("return document.getElementById ('txtPatientAge').value");
+	}
+	
 	public void setEditPatientRegRelationshipName(String RegRelationshipName)
 	{
 		patientregrelationshipname_txtbox.clear();
 		patientregrelationshipname_txtbox.sendKeys(RegRelationshipName);
 	}
+	public String getEditPatientRegRelationshipName()
+	{
+		return (String)jse.executeScript("return document.getElementById('txtPatientSpouseName').value");
+	}
 	public void setEditPatientRegPincode(String RegPincode)
 	{
 		patientregpincode_txtbox.clear();
 		patientregpincode_txtbox.sendKeys(RegPincode);
+	}
+	public String getEditPatientRegPincode()
+	{
+		return (String)jse.executeScript("return document.getElementById('txtPatientPinCode').value");
 	}
 	public void enterEditRegMobileNo(String RegMobileno,String RegOtp)
 	{
@@ -351,6 +445,14 @@ public class PatientRegistrationPage extends TestBase{
 		patientregotp_txtboxs.sendKeys(RegOtp);
 		patientregvalidateotp_btn.click();
 	
+	}
+	public String getEditMobileNo()
+	{
+		return (String)jse.executeScript("return document.getElementById('txtPatientMobileNo').value");
+	}
+	public String getEditOtp()
+	{
+		return (String)jse.executeScript("return document.getElementById('txtfOTP').value");
 	}
 	public void clickOnUpdateButton()
 	{

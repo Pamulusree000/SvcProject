@@ -2434,3 +2434,119 @@
 2024-05-09 15:56:17,932 - Svc Automation Framework -INFO - ConfirmPassword :Idea@123456
 2024-05-09 15:56:21,350 - Svc Automation Framework -INFO - Clicked on update button
 2024-05-09 15:56:24,452 - Svc Automation Framework -INFO - Framework Execution Stopped
+2024-05-10 16:00:55,499 - Svc Automation Framework -INFO - Framework Execution Started
+2024-05-10 16:01:07,106 - Svc Automation Framework -INFO - Browser launches,Url,Maximize
+2024-05-10 16:01:11,033 - Svc Automation Framework -INFO - Clicked on home signin button
+2024-05-10 16:01:13,216 - Svc Automation Framework -INFO - Username :9898989898
+2024-05-10 16:01:15,317 - Svc Automation Framework -INFO - Clicked on signinviaotp button
+2024-05-10 16:01:17,511 - Svc Automation Framework -INFO - Otp :789123
+2024-05-10 16:01:20,566 - Svc Automation Framework -INFO - Clicked on signin button
+2024-05-10 16:01:22,935 - Svc Automation Framework -INFO - Clicked on patient registration link
+2024-05-10 16:01:25,019 - Svc Automation Framework -INFO - Clicked on add patient button
+2024-05-10 16:01:27,190 - Svc Automation Framework -INFO - Patient Name :Rajavardhan
+2024-05-10 16:01:29,372 - Svc Automation Framework -INFO - PatientAge :28
+2024-05-10 16:01:31,573 - Svc Automation Framework -INFO - PatientRelationship :
+2024-05-10 16:01:33,759 - Svc Automation Framework -INFO - Patient Relationship Name :Dhasharadha
+2024-05-10 16:01:35,891 - Svc Automation Framework -INFO - Patient Pincode :515671
+2024-05-10 16:01:38,092 - Svc Automation Framework -INFO - Patient Gender :
+2024-05-10 16:01:40,768 - Svc Automation Framework -INFO - Mobile No :7845956958
+2024-05-10 16:01:40,775 - Svc Automation Framework -INFO - Mobile Otp :7
+2024-05-10 16:01:43,057 - Svc Automation Framework -INFO - PreferredSvc :
+2024-05-10 16:01:46,242 - Svc Automation Framework -INFO - Clicked on save button
+2024-05-10 16:01:49,860 - Svc Automation Framework -INFO - Clicked on ok button
+2024-05-10 16:01:51,878 - Svc Automation Framework -INFO - Framework Execution Stopped
+2024-05-10 16:40:31,345 - Svc Automation Framework -INFO - Framework Execution Started
+2024-05-10 16:40:39,060 - Svc Automation Framework -INFO - Browser launches,Url,Maximize
+2024-05-10 16:40:40,009 - Svc Automation Framework -INFO - Clicked on home signin button
+2024-05-10 16:40:42,161 - Svc Automation Framework -INFO - Username :9898989898
+2024-05-10 16:40:44,243 - Svc Automation Framework -INFO - Clicked on signinviaotp button
+2024-05-10 16:40:46,381 - Svc Automation Framework -INFO - Otp :789123
+2024-05-10 16:40:49,407 - Svc Automation Framework -INFO - Clicked on signin button
+2024-05-10 16:40:51,660 - Svc Automation Framework -INFO - Clicked on patient registration link
+2024-05-10 16:40:53,790 - Svc Automation Framework -INFO - Clicked on add patient button
+2024-05-10 16:40:55,957 - Svc Automation Framework -INFO - Patient Name :Rajavardhan
+2024-05-10 16:40:58,071 - Svc Automation Framework -INFO - PatientAge :28
+2024-05-10 16:41:00,295 - Svc Automation Framework -INFO - PatientRelationship :Father
+2024-05-10 16:41:02,436 - Svc Automation Framework -INFO - Patient Relationship Name :Dhasharadha
+2024-05-10 16:41:04,536 - Svc Automation Framework -INFO - Patient Pincode :515671
+2024-05-10 16:41:06,736 - Svc Automation Framework -INFO - Patient Gender :
+2024-05-10 16:41:09,447 - Svc Automation Framework -INFO - Mobile No :7845956456
+2024-05-10 16:41:09,452 - Svc Automation Framework -INFO - Mobile Otp :7
+2024-05-10 16:41:11,661 - Svc Automation Framework -INFO - PreferredSvc :
+2024-05-10 16:48:17,579 - Svc Automation Framework -INFO - Framework Execution Started
+2024-05-10 16:48:25,534 - Svc Automation Framework -INFO - Browser launches,Url,Maximize
+2024-05-10 16:48:26,278 - Svc Automation Framework -INFO - Clicked on home signin button
+2024-05-10 16:48:28,425 - Svc Automation Framework -INFO - Username :9898989898
+2024-05-10 16:48:30,515 - Svc Automation Framework -INFO - Clicked on signinviaotp button
+2024-05-10 16:48:32,625 - Svc Automation Framework -INFO - Otp :789123
+2024-05-10 16:48:35,638 - Svc Automation Framework -INFO - Clicked on signin button
+2024-05-10 16:48:38,471 - Svc Automation Framework -INFO - Clicked on patient registration link
+2024-05-10 16:48:40,629 - Svc Automation Framework -INFO - Clicked on add patient button
+2024-05-10 16:48:42,804 - Svc Automation Framework -INFO - Patient Name :Rajavardhan
+2024-05-10 16:48:44,954 - Svc Automation Framework -INFO - PatientAge :28
+2024-05-10 16:48:47,263 - Svc Automation Framework -INFO - PatientRelationship :Father
+2024-05-10 16:48:49,434 - Svc Automation Framework -INFO - Patient Relationship Name :Dhasharadha
+2024-05-10 16:48:51,618 - Svc Automation Framework -INFO - Patient Pincode :515671
+2024-05-10 16:48:53,910 - Svc Automation Framework -INFO - Patient Gender :Male
+2024-05-10 16:48:56,915 - Svc Automation Framework -INFO - Mobile No :7845956456
+2024-05-10 16:48:56,916 - Svc Automation Framework -INFO - Mobile Otp :7
+2024-05-10 16:49:14,328 - Svc Automation Framework -INFO - Framework Execution Stopped
+2024-05-10 16:50:24,896 - Svc Automation Framework -INFO - Framework Execution Started
+2024-05-10 16:50:32,761 - Svc Automation Framework -INFO - Browser launches,Url,Maximize
+2024-05-10 16:50:33,790 - Svc Automation Framework -INFO - Clicked on home signin button
+2024-05-10 16:50:35,907 - Svc Automation Framework -INFO - Username :9898989898
+2024-05-10 16:50:38,004 - Svc Automation Framework -INFO - Clicked on signinviaotp button
+2024-05-10 16:50:40,121 - Svc Automation Framework -INFO - Otp :789123
+2024-05-10 16:50:43,333 - Svc Automation Framework -INFO - Clicked on signin button
+2024-05-10 16:50:46,080 - Svc Automation Framework -INFO - Clicked on patient registration link
+2024-05-10 16:50:48,213 - Svc Automation Framework -INFO - Clicked on add patient button
+2024-05-10 16:50:50,386 - Svc Automation Framework -INFO - Patient Name :Rajavardhan
+2024-05-10 16:50:52,522 - Svc Automation Framework -INFO - PatientAge :28
+2024-05-10 16:50:54,668 - Svc Automation Framework -INFO - PatientRelationship :Father
+2024-05-10 16:50:56,805 - Svc Automation Framework -INFO - Patient Relationship Name :Dhasharadha
+2024-05-10 16:50:58,931 - Svc Automation Framework -INFO - Patient Pincode :515671
+2024-05-10 16:51:01,151 - Svc Automation Framework -INFO - Patient Gender :Male
+2024-05-10 16:51:03,760 - Svc Automation Framework -INFO - Mobile No :7845956456
+2024-05-10 16:51:03,762 - Svc Automation Framework -INFO - Mobile Otp :7
+2024-05-10 16:51:05,972 - Svc Automation Framework -INFO - PreferredSvc :PALACE GUTTAHALLI SVC
+2024-05-10 16:51:09,027 - Svc Automation Framework -INFO - Clicked on save button
+2024-05-10 16:51:12,340 - Svc Automation Framework -INFO - Clicked on ok button
+2024-05-10 16:51:14,351 - Svc Automation Framework -INFO - Framework Execution Stopped
+2024-05-10 16:59:46,649 - Svc Automation Framework -INFO - Framework Execution Started
+2024-05-10 16:59:53,693 - Svc Automation Framework -INFO - Browser launches,Url,Maximize
+2024-05-10 16:59:54,994 - Svc Automation Framework -INFO - Clicked on home signin button
+2024-05-10 16:59:57,150 - Svc Automation Framework -INFO - Username :9898989898
+2024-05-10 16:59:59,268 - Svc Automation Framework -INFO - Clicked on signinviaotp button
+2024-05-10 17:00:01,472 - Svc Automation Framework -INFO - Otp :789123
+2024-05-10 17:00:04,564 - Svc Automation Framework -INFO - Clicked on signin button
+2024-05-10 17:00:07,309 - Svc Automation Framework -INFO - Clicked on patient registration link
+2024-05-10 17:00:09,460 - Svc Automation Framework -INFO - Clicked on add patient button
+2024-05-10 17:00:11,677 - Svc Automation Framework -INFO - Patient Name :Rajavardhan
+2024-05-10 17:00:13,822 - Svc Automation Framework -INFO - PatientAge :28
+2024-05-10 17:00:16,116 - Svc Automation Framework -INFO - PatientRelationship :Father
+2024-05-10 17:00:18,330 - Svc Automation Framework -INFO - Patient Relationship Name :Dhasharadha
+2024-05-10 17:00:20,487 - Svc Automation Framework -INFO - Patient Pincode :515671
+2024-05-10 17:00:22,742 - Svc Automation Framework -INFO - Patient Gender :Male
+2024-05-10 17:00:25,602 - Svc Automation Framework -INFO - Mobile No :7845957589
+2024-05-10 17:00:25,605 - Svc Automation Framework -INFO - Mobile Otp :
+2024-05-10 17:00:27,885 - Svc Automation Framework -INFO - PreferredSvc :PALACE GUTTAHALLI SVC
+2024-05-10 17:00:31,533 - Svc Automation Framework -INFO - Clicked on save button
+2024-05-10 17:00:34,560 - Svc Automation Framework -INFO - Framework Execution Stopped
+2024-05-10 17:04:26,022 - Svc Automation Framework -INFO - Framework Execution Started
+2024-05-10 17:04:34,278 - Svc Automation Framework -INFO - Browser launches,Url,Maximize
+2024-05-10 17:04:35,823 - Svc Automation Framework -INFO - Clicked on home signin button
+2024-05-10 17:04:38,012 - Svc Automation Framework -INFO - Username :9898989898
+2024-05-10 17:04:40,103 - Svc Automation Framework -INFO - Clicked on signinviaotp button
+2024-05-10 17:04:42,258 - Svc Automation Framework -INFO - Otp :789123
+2024-05-10 17:04:45,415 - Svc Automation Framework -INFO - Clicked on signin button
+2024-05-10 17:04:48,166 - Svc Automation Framework -INFO - Clicked on patient registration link
+2024-05-10 17:04:50,305 - Svc Automation Framework -INFO - Clicked on add patient button
+2024-05-10 17:04:52,468 - Svc Automation Framework -INFO - Patient Name :Rajavardhan
+2024-05-10 17:04:54,576 - Svc Automation Framework -INFO - PatientAge :28
+2024-05-10 17:04:56,758 - Svc Automation Framework -INFO - PatientRelationship :Father
+2024-05-10 17:04:58,893 - Svc Automation Framework -INFO - Patient Relationship Name :Dhasharadha
+2024-05-10 17:05:01,027 - Svc Automation Framework -INFO - Patient Pincode :515671
+2024-05-10 17:05:03,257 - Svc Automation Framework -INFO - Patient Gender :Male
+2024-05-10 17:05:08,970 - Svc Automation Framework -INFO - Mobile No :7845957589
+2024-05-10 17:05:08,971 - Svc Automation Framework -INFO - Mobile Otp :
+2024-05-10 17:05:11,203 - Svc Automation Framework -INFO - PreferredSvc :PALACE GUTTAHALLI SVC
